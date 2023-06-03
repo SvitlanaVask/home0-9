@@ -2,7 +2,7 @@
   "name": "home0-9",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://SvitlanaVask.github.io/home0-9/",
+  "homepage": "https://SvitlanaVask.github.io/home0-9",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /home0-9/"
@@ -12,13 +12,16 @@
     "url": "git+https://github.com/SvitlanaVask/home0-9.git"
   },
   "keywords": [],
-  "author": "s <svetaklymchuka@gmail.com>",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SvitlanaVask/home0-9/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "@vimeo/player": "^2.20.1",
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.14.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
