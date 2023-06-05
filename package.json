@@ -12,16 +12,13 @@
     "url": "git+https://github.com/SvitlanaVask/home0-9.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Svitlana Svitlana <svetaklymchuk@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SvitlanaVask/home0-9/issues"
   },
   "dependencies": {
-    "@vimeo/player": "^2.20.1",
-    "lodash.throttle": "^4.1.1",
-    "modern-normalize": "^1.1.0",
-    "simplelightbox": "^2.14.1"
+    "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
