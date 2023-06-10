@@ -1,12 +1,7 @@
 import {Notify} from 'notiflix';
 
 const formRef = document.querySelector('form');
-const delayRef = document.querySelector('input[name="delay"]');
-const stepRef = document.querySelector('input[name="step"]');
-const amountRef = document.querySelector('input[name="amount"]');
 const submitBtn = document.querySelector('button');
-
-let data = {};
 
 formRef.addEventListener('submit', onFormSubmit);
 submitBtn.addEventListener('click', createPromise);
